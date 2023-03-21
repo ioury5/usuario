@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- FONTE TRAIN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Elite&family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTE SPECIAL ELITE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTE PRESS 2P -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTE MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- TITULO E LOGO -->
+      <div class="form">
+      <div class="logo-principal">
+        <img class="logo" src="./Logo escura.png" alt="logo" />
+        <!-- <h6 class="letters-logo">Disk Art</h6> -->
+      </div>
+      <!-- FORMULARIO COM NOME DE USUARIO E SENHA -->
+        <form action="">
+          <label for="email">Insira seu nome de usuario</label><br />
+          <input
+            class="input-text"
+            type="e-mail"
+            id="userName"
+            name="email"
+            placeholder="Nome de usuario"
+            required
+          /><br />
+          <!-- SENHA -->
+          <label for="senha">Insira sua Senha</label><br />
+          <input
+            class="input-text"
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Senha"
+            required
+          /><br /><br>
+          <input type="radio" name="check" required><label for="check"><small> Eu li e concordo com os termos <br>e condições para o uso deste site</small></label>
+
+          <!-- ENVIO DE INFORMAÇÕES  -->
+          <div class="button">
+            <input
+              type="button"
+              class="pbutton"
+              value="Enviar"
+              id="send"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="linkTree"></div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="./index.js"></script>
+  </body>
+  <!-- <img src="./Fundo login/fundo-preto-com-malha-de-baixo-poli-vermelho-brilhante_1017-20215.avif" alt=""> -->
+</html>

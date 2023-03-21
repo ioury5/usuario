@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgba(7, 2, 2, 0.274);
+  }
+
+  body{
+    background-image: url("./escurecido.png");
+  }
+
+  .logo {
+    width: 5vw;
+    height: 10vh;
+    margin-bottom: 5vh;
+    opacity: 200%;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .logo:hover {
+    width: 6vw;
+    height: 12vh;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    padding: 5vh; 
+  }
+
+  .partOfButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0vh 0vh 2vh;
+    width: 50%;
+  }
+  .principalButtons{
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .message-welcome{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1vh;
+
+  }
+  .buttons{
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgb(126, 0, 48);
+    border-radius: 20px;
+    width: 13vw;
+    height: 5vh;
+    font-family: 'Montserrat',sans-serif;
+    margin: 5vh 10vh;
+    margin-bottom: 0px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .buttons:hover{
+    background-color:  rgb(168, 50, 96);
+    width: 16vw;
+    height: 8vh;
+
+  }
+
+  h1{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3vh;
+  }
+
+  label{
+    font-size: 0.85em;
+  }
+  .input-text{
+    border-radius: 15px;
+    width: 100%;
+    font-size: 2vh;
+    height: 4vh;
+    background-color: rgb(178, 182, 185);
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .listOfUsers{
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 7vh 20vh ; 
+    width: 40%;
+    height: 50%;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: 0.4s;
+    font-size: 3vh;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    background-color: transparent;
+  }
+
+  .listOfUsers:hover{
+    border: 2px solid  rgb(126, 0, 48); 
+  }

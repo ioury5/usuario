@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(7, 2, 2); */
+    
+  }
+
+  body{
+    background-image: url("./escurecido.png" );
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+}
+/* .letters-logo{
+    font-family:'Train One', cursive;
+    font-size: 4vh;
+    padding-bottom: 45px;
+    color: rgba(193, 4, 4, 0.897);
+
+} */
+.logo {
+    width:80px;
+    height:80px;
+    margin-bottom: 5vh;
+    opacity: 200%;
+    border-radius: 15px;
+    transition: 0.4s;
+  }
+  .logo:hover {
+    width: 6vw;
+    height: 12vh;
+  }
+
+  label{
+    color: rgb(172, 186, 197);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vh;
+    font-weight: 600;
+  }
+
+ .input-text{
+    border-radius: 15px;
+    width: 100%;
+    font-size: 2vh;
+    height: 5vh;
+    background-color: rgb(218, 231, 240);
+    font-weight: 600;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(126, 0, 48);
+    border-radius: 20px;
+    align-items: center;
+    padding: 8vh 8vh 1vh 8vh;
+    margin: 0px;
+    background-color: rgba(5, 3, 10, 0.845);
+  }
+
+  .pbutton{
+    width: 50%;
+    height: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 15px;
+    margin: 7vh;
+    background-color:  rgb(126, 0, 48);
+    cursor: pointer;
+    font-weight: 500;
+    color: aliceblue;
+    transition: 0.4;
+  }
+
+  .pbutton:hover{
+    background-color:  rgb(168, 50, 96);
+  }
+
+
+
+  .linkTree{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5vh ;
+  }
+
+  .usersForDel{
+    display: flex;
+  }
